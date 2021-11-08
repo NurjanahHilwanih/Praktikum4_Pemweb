@@ -1,0 +1,58 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background-color: snow;
+    padding: 15px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: steelblue;
+    padding-inline-end: 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.one {
+    display: flex;
+}
+
+.profile {
+    width: 150px;
+}
+
+.biodata {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 90%;
+}
+
+.deskripsi {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 1px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
